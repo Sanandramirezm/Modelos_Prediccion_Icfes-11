@@ -1,0 +1,40 @@
+# Entorno virtual de Python
+.venv/
+venv/
+env/
+ENV/
+
+# Carpeta de artefactos de Spark
+artifacts/
+
+# Carpeta de datos (archivos grandes)
+datos/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Configuración de IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.bak
